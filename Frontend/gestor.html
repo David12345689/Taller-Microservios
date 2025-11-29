@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel del Gestor</title>
+    <link rel="stylesheet" href="css/gestor.css">
+</head>
+<body>
+    <h1>Panel del Gestor</h1>
+    <button onclick="cerrarSesion()">Cerrar Sesión</button>
+
+    <section>
+        <h2>Crear Ticket</h2>
+        <form id="formCrearTicket">
+            <input type="text" id="titulo" placeholder="Título del ticket" required><br>
+            <textarea id="descripcion" placeholder="Descripción" required></textarea><br>
+            <button type="submit">Crear</button>
+        </form>
+        <p id="crearMsg"></p>
+    </section>
+
+    <section>
+        <h2>Mis Tickets</h2>
+        <div id="listaTickets"></div>
+    </section>
+
+    <script type="module" src="js/gestor.js"></script>
+</body>
+</html>

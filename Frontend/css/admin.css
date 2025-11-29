@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.ticket, .detalle-ticket {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+textarea, input, select, button {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+}
